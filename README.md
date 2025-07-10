@@ -1,10 +1,4 @@
-# Housing Price Prediction using Linear Regression
-
-A basic ML pipeline to predict house prices from housing.csv.
-
----
-
-## Setup
+### Housing Price Prediction using Linear Regression
 
 Install the required dependencies:
 
@@ -12,21 +6,11 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
----
-
-## How to Run
-
-### Train and Evaluate the Model
-
-Train and evaluate the model using housing.csv. The trained model is saved to models/linear_model.pkl.
+Train and evaluate the model using ```housing.csv```. The trained model is saved to ```models/linear_model.pkl```.
 
 ```bash
 python run_pipeline.py
 ```
-
----
-
-### Predict from CLI Input
 
 After training the model, predict the house price by entering feature values manually:
 
